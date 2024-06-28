@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
-            android:text="TextView"
+            android:text="@string/main_title_text"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="22sp"
@@ -39,6 +39,9 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/main_menu"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
